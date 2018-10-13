@@ -1,7 +1,7 @@
 # Motion Activated Music Player  
 <img src="https://user-images.githubusercontent.com/25557896/46908646-c1499580-cef3-11e8-93c7-9a2243e19933.png"/>
   
-Created for HackUMass VI, this project uses Leap Motion to detect gestures. These gestures are linked to media commands and can be used to control music players. 
+Created for HackUMass VI, this project uses Leap Motion to detect gestures. Moving the ring or pinkie finger to the thumb starts a mode. These modes include a music player mode and a morse code mode. In the music mode, the gestures are linked to media commands and can be used to control any music player. In the morse code mode, the swipe down gesture is a dot and the system outputs the message upon changing the mode.  
 ## Table of Contents :smile::smile::smile:
 - [Installation](#installation)  
 - [Music Mode](#music)  
@@ -40,7 +40,7 @@ Counter-clockwise circle - Volume Down
 Morse Code Interpreter - enter morse code with a swipe down motion and see your message with a gestsure  
 Command to start Morse Code Mode  
 ![embeddedimg_handyoga_850px_7-600x600](https://user-images.githubusercontent.com/25557896/46910583-ff0ae600-cf14-11e8-9688-85758a9e57d3.jpg)  
-**Insert GIF here  
+**Insert GIF here of use  
 ## FAQ :japanese_ogre: :pouting_cat: :heart_eyes_cat:
 - How can I learn more about Leap Motion?  
 The official website for Leap Motion has a great start-up guide for new users, however their sample code for the Python SDK may have some errors. If one finds errors, they can reference our code above.  
