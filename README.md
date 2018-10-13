@@ -17,32 +17,30 @@ Created for HackUMass VI, this project uses Leap Motion to detect gestures. Thes
   ![leap560](https://user-images.githubusercontent.com/25557896/46907770-abcd6f00-cee5-11e8-8a68-b1144c110064.jpg)
 # Music Mode :open_mouth:  
 Command to Start Music Mode  
-![seven-in-american-sign-language](https://user-images.githubusercontent.com/25557896/46910526-139aae80-cf14-11e8-8a1b-48bf3fd56e3b.jpg)  
+![seven-in-american-sign-language](https://user-images.githubusercontent.com/25557896/46910589-03370380-cf15-11e8-9ee1-fbcf2309ed52.jpg)   
 Keytap -  a quick, downward tapping movement  
 :point_up_2:
 Keytap - Play/Pause  
-![leap_gesture_tap](https://user-images.githubusercontent.com/25557896/46907721-d4089e00-cee4-11e8-85bd-5009e10b08de.png)
+![leap_gesture_tap](https://user-images.githubusercontent.com/25557896/46910588-029e6d00-cf15-11e8-8daf-3d009dd6ac82.png)  
 
 
 Swipe - a linear movement of a finger to the left or right  
 :point_left:  :point_right:  
 Swipe left - Previous Track  
 Swipe right - Next Track  
-![leap_gesture_swipe](https://user-images.githubusercontent.com/25557896/46907719-d2d77100-cee4-11e8-8fc9-e49030aeab86.png)
-
+![leap_gesture_swipe](https://user-images.githubusercontent.com/25557896/46910587-016d4000-cf15-11e8-9b32-470fc609b5b5.png)  
 
 Circles - A finger tracing a circle in space  
 :point_up_2:
 Clockwise-circle - Volume Up  
 Counter-clockwise circle - Volume Down  
-![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46907718-d10dad80-cee4-11e8-8ad9-7b74e119030b.png)  
+![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46910586-003c1300-cf15-11e8-9ad0-7e88648810e2.png)  
 
 ![ezgif-1-aca0cc16fcd5](https://user-images.githubusercontent.com/25557896/46909380-7c2b6080-ceff-11e8-8fab-c86d151e9dfd.gif)  
 ## Morse Code Mode :smile_cat::smile_cat::smile_cat:  
 Morse Code Interpreter - enter morse code with a swipe down motion and see your message with a gestsure  
 Command to start Morse Code Mode  
-![embeddedimg_handyoga_850px_7-600x600](https://user-images.githubusercontent.com/25557896/46910508-a25afb80-cf13-11e8-99ca-37298ffa6cb2.jpg)
-
+![embeddedimg_handyoga_850px_7-600x600](https://user-images.githubusercontent.com/25557896/46910583-ff0ae600-cf14-11e8-9688-85758a9e57d3.jpg)  
 **Insert GIF here  
 ## FAQ :japanese_ogre: :pouting_cat: :heart_eyes_cat:
 - How can I learn more about Leap Motion?  
