@@ -9,8 +9,14 @@ Software and hardware incorporated project for HackUmass VI. Leap Motion is used
   
   
   Leap Motion (V2) - https://www.leapmotion.com/setup/desktop/
-
-## authors
+## Usage
+## Commands
+Keytap - Play/Pause
+Swipe left - Previous Track
+Swipe right - Next Track
+Clockwise-circle - Volume Up
+Counter-clockwise circle - Volume Down
+## Credits
 - **Crystal Rhee**  
   Northeastern University  
   Computer Science and Finance Major  
@@ -25,3 +31,5 @@ Software and hardware incorporated project for HackUmass VI. Leap Motion is used
 
 - **Timothy Shee**:
   High School  
+## Licensing
+  MIT License
