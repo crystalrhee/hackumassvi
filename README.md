@@ -10,7 +10,7 @@ Created for HackUMass VI, this project uses Leap Motion to detect gestures that 
 ### Please Install:  
   Python 2.7  - https://www.python.org/downloads/release/python-2715/  
   Leap Motion (V2) - https://www.leapmotion.com/setup/desktop/  
-### And Buy A 
+### And Buy  
   Leap Motion Controller  
   ![leap560](https://user-images.githubusercontent.com/25557896/46907770-abcd6f00-cee5-11e8-8a68-b1144c110064.jpg)
 # Gestures :open_mouth:
