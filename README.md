@@ -21,20 +21,19 @@ Command to Start Music Mode
 Keytap -  a quick, downward tapping movement  
 :point_up_2:
 Keytap - Play/Pause  
-![leap_gesture_tap](https://user-images.githubusercontent.com/25557896/46910588-029e6d00-cf15-11e8-8daf-3d009dd6ac82.png)  
-
+![leap_gesture_tap](https://user-images.githubusercontent.com/25557896/46910611-822c3c00-cf15-11e8-9012-db2364a5478e.png)  
 
 Swipe - a linear movement of a finger to the left or right  
 :point_left:  :point_right:  
 Swipe left - Previous Track  
 Swipe right - Next Track  
-![leap_gesture_swipe](https://user-images.githubusercontent.com/25557896/46910587-016d4000-cf15-11e8-9b32-470fc609b5b5.png)  
+![leap_gesture_swipe](https://user-images.githubusercontent.com/25557896/46910610-8193a580-cf15-11e8-82c8-bc46e758a658.png)  
 
 Circles - A finger tracing a circle in space  
 :point_up_2:
 Clockwise-circle - Volume Up  
 Counter-clockwise circle - Volume Down  
-![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46910586-003c1300-cf15-11e8-9ad0-7e88648810e2.png)  
+![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46910609-7fc9e200-cf15-11e8-9b25-c09985cea990.png)  
 
 ![ezgif-1-aca0cc16fcd5](https://user-images.githubusercontent.com/25557896/46909380-7c2b6080-ceff-11e8-8fab-c86d151e9dfd.gif)  
 ## Morse Code Mode :smile_cat::smile_cat::smile_cat:  
