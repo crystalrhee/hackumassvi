@@ -4,8 +4,8 @@
 Created for HackUMass VI, this project uses Leap Motion to detect gestures. Moving the ring or pinkie finger to the thumb starts a mode. These modes include a music player mode and a morse code mode. In the music mode, the gestures are linked to media commands and can be used to control any music player. In the morse code mode, the swipe down gesture is a dot and the system outputs the message upon changing the mode.  
 ## Table of Contents  :smile::smile::smile:
 - [Installation](#installation)  
-- [Music Mode](#music)  
-- [Morse Code Mode](#morse_code)  
+- [Music Mode](#music-mode)  
+- [Morse Code Mode](#morse-code-mode)  
 - [FAQ](#faq)  
 - [Credits](#credits)  
 ## Installation
@@ -16,7 +16,7 @@ Created for HackUMass VI, this project uses Leap Motion to detect gestures. Movi
 ### And Buy  
   Leap Motion Controller  
   ![leap560](https://user-images.githubusercontent.com/25557896/46907770-abcd6f00-cee5-11e8-8a68-b1144c110064.jpg)
-# Music Mode
+## Music Mode  
 :open_mouth:  
 Command to Start Music Mode  
 ![seven-in-american-sign-language](https://user-images.githubusercontent.com/25557896/46910589-03370380-cf15-11e8-9ee1-fbcf2309ed52.jpg)   
@@ -38,7 +38,7 @@ Counter-clockwise circle - Volume Down
 ![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46910609-7fc9e200-cf15-11e8-9b25-c09985cea990.png)  
 
 ![ezgif-1-aca0cc16fcd5](https://user-images.githubusercontent.com/25557896/46909380-7c2b6080-ceff-11e8-8fab-c86d151e9dfd.gif)  
-## Morse Code Mode
+## Morse Code Mode  
 :smile_cat::smile_cat::smile_cat:  
 Morse Code Interpreter - enter morse code with a swipe down motion and see your message with a gestsure  
 Command to start Morse Code Mode  
