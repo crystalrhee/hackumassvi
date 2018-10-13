@@ -7,11 +7,9 @@ Software and hardware incorporated project for HackUmass VI. Leap Motion is used
 [FAQ](#faq)
 [Credits](#credits)
 ## Installation
-  Python 2.7  - https://www.python.org/downloads/release/python-2715/  Leap Motion (V2) - https://www.leapmotion.com/setup/desktop/
-
-  Leap Motion Controller 
-  
-  
+  Python 2.7  - https://www.python.org/downloads/release/python-2715/  
+  Leap Motion (V2) - https://www.leapmotion.com/setup/desktop/  
+  Leap Motion Controller  
   ![leap560](https://user-images.githubusercontent.com/25557896/46907770-abcd6f00-cee5-11e8-8a68-b1144c110064.jpg)
 # Usage
 Keytap -  a quick, downward tapping movement
