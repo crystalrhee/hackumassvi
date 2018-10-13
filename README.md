@@ -13,13 +13,16 @@ This project uses Python version 2.7.
 
 ## authors
 - **Crystal Rhee**  
-  Northeastern University Computer Science and Finance Major 
+  Northeastern University  
+  Computer Science and Finance Major  
 
 - **Ivan Chen**  
-  Northeastern University Computer Science Major 
+  Northeastern University  
+  Computer Science Major  
 
 - **Jonathan Shee**  
-  UMass Amherst Computer Science Major
+  UMass Amherst  
+  Computer Science Major  
 
 - **Timothy Shee**:
   High School  
