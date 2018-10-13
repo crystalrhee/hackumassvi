@@ -38,7 +38,6 @@ Counter-clockwise circle - Volume Down
 ![ezgif-1-aca0cc16fcd5](https://user-images.githubusercontent.com/25557896/46909380-7c2b6080-ceff-11e8-8fab-c86d151e9dfd.gif)  
 ## Morse Code Mode :smile_cat::smile_cat::smile_cat:  
 Morse Code Interpreter - enter morse code with a swipe down motion and see your message with a gestsure
-## Example  
 **Insert GIF here  
 ## FAQ :japanese_ogre: :pouting_cat: :heart_eyes_cat:
 - How can I learn more about Leap Motion?  
