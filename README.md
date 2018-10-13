@@ -3,20 +3,17 @@ Software and hardware incorporated project for HackUmass VI. Leap Motion is used
 
 ## Table of Contents
 [Installation](#installation)
-
+[Usage](#usage)
+[FAQ](#faq)
+[Credits](#credits)
 ## Installation
-  Python 2.7  - https://www.python.org/downloads/release/python-2715/
-  
-  
-  Leap Motion (V2) - https://www.leapmotion.com/setup/desktop/
+  Python 2.7  - https://www.python.org/downloads/release/python-2715/  Leap Motion (V2) - https://www.leapmotion.com/setup/desktop/
 
   Leap Motion Controller 
   
   
   ![leap560](https://user-images.githubusercontent.com/25557896/46907770-abcd6f00-cee5-11e8-8a68-b1144c110064.jpg)
-## Usage
-
-# Commands
+# Usage
 Keytap -  a quick, downward tapping movement
 
 
@@ -24,6 +21,8 @@ Keytap - Play/Pause
 
 
 ![leap_gesture_tap](https://user-images.githubusercontent.com/25557896/46907721-d4089e00-cee4-11e8-85bd-5009e10b08de.png)
+
+
 Swipe - a linear movement of a finger to the left or right
 
 
@@ -45,6 +44,8 @@ Counter-clockwise circle - Volume Down
 
 
 ![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46907718-d10dad80-cee4-11e8-8ad9-7b74e119030b.png)
+
+##FAQ
 
 ## Credits
 - **Crystal Rhee**  
