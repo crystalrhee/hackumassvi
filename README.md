@@ -1,9 +1,8 @@
 # Motion Activated Music Player
-Software and hardware incorporated project for HackUmass VI. Leap Motion is used to detect gestures that are linked to specific commands to control music players.
-
+Created for HackUMass VI, this project uses Leap Motion to detect gestures that are linked to media commands to control music players.  
 ## Table of Contents
 [Installation](#installation)  
-[Usage](#usage)  
+[Gestures](#gestures)  
 [Example](#example)  
 [FAQ](#faq)  
 [Credits](#credits)  
@@ -12,7 +11,7 @@ Software and hardware incorporated project for HackUmass VI. Leap Motion is used
   Leap Motion (V2) - https://www.leapmotion.com/setup/desktop/  
   Leap Motion Controller  
   ![leap560](https://user-images.githubusercontent.com/25557896/46907770-abcd6f00-cee5-11e8-8a68-b1144c110064.jpg)
-# Commands
+# Gestures
 Keytap -  a quick, downward tapping movement  
 Keytap - Play/Pause  
 ![leap_gesture_tap](https://user-images.githubusercontent.com/25557896/46907721-d4089e00-cee4-11e8-85bd-5009e10b08de.png)
