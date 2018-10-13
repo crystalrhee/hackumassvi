@@ -4,8 +4,8 @@
 Created for HackUMass VI, this project uses Leap Motion to detect gestures. These gestures are linked to media commands and can be used to control music players. 
 ## Table of Contents :smile::smile::smile:
 - [Installation](#installation)  
-- [Gestures](#gestures)  
-- [Example](#example)  
+- [Music Mode](#music)  
+- [Morse Code Mode](#morse_code)  
 - [FAQ](#faq)  
 - [Credits](#credits)  
 ## Installation :wink: :kissing_smiling_eyes:
@@ -15,7 +15,7 @@ Created for HackUMass VI, this project uses Leap Motion to detect gestures. Thes
 ### And Buy  
   Leap Motion Controller  
   ![leap560](https://user-images.githubusercontent.com/25557896/46907770-abcd6f00-cee5-11e8-8a68-b1144c110064.jpg)
-# Gestures :open_mouth:
+# Music Mode :open_mouth:
 Keytap -  a quick, downward tapping movement  
 :point_up_2:
 Keytap - Play/Pause  
@@ -34,8 +34,12 @@ Circles - A finger tracing a circle in space
 Clockwise-circle - Volume Up  
 Counter-clockwise circle - Volume Down  
 ![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46907718-d10dad80-cee4-11e8-8ad9-7b74e119030b.png)  
-## Example :smile_cat::smile_cat::smile_cat:
+
 ![ezgif-1-aca0cc16fcd5](https://user-images.githubusercontent.com/25557896/46909380-7c2b6080-ceff-11e8-8fab-c86d151e9dfd.gif)  
+## Morse Code Mode :smile_cat::smile_cat::smile_cat:  
+Morse Code Interpreter - enter morse code with a swipe down motion and see your message with a gestsure
+## Example  
+**Insert GIF here  
 ## FAQ :japanese_ogre: :pouting_cat: :heart_eyes_cat:
 - How can I learn more about Leap Motion?  
 The official website for Leap Motion has a great start-up guide for new users, however their sample code for the Python SDK may have some errors. If one finds errors, they can reference our code above.  
