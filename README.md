@@ -8,7 +8,8 @@ Created for HackUMass VI, this project uses Leap Motion to detect gestures. Movi
 - [Morse Code Mode](#morse_code)  
 - [FAQ](#faq)  
 - [Credits](#credits)  
-## Installation :wink: :kissing_smiling_eyes:
+## Installation 
+:wink: :kissing_smiling_eyes:
 ### Please Install:  
   Python 2.7  - https://www.python.org/downloads/release/python-2715/  
   Leap Motion (V2) - https://www.leapmotion.com/setup/desktop/  
