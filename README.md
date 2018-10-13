@@ -28,9 +28,9 @@ Circles - A finger tracing a circle in space
 Clockwise-circle - Volume Up  
 Counter-clockwise circle - Volume Down  
 ![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46907718-d10dad80-cee4-11e8-8ad9-7b74e119030b.png)  
-##Example
+## Example
 ```screenshots of in use```
-##FAQ
+## FAQ
 How can I find out more about Leap Motion?  
 The official website for Leap Motion has a great start-up guide for new users, however there sample code for the Python SDK may have some errors. If one finds errors, they can reference our code above.  
 https://developer.leapmotion.com/#101  
