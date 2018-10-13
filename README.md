@@ -15,7 +15,9 @@ Created for HackUMass VI, this project uses Leap Motion to detect gestures. Thes
 ### And Buy  
   Leap Motion Controller  
   ![leap560](https://user-images.githubusercontent.com/25557896/46907770-abcd6f00-cee5-11e8-8a68-b1144c110064.jpg)
-# Music Mode :open_mouth:
+# Music Mode :open_mouth:  
+Command to Start Music Mode  
+![seven-in-american-sign-language](https://user-images.githubusercontent.com/25557896/46910526-139aae80-cf14-11e8-8a1b-48bf3fd56e3b.jpg)  
 Keytap -  a quick, downward tapping movement  
 :point_up_2:
 Keytap - Play/Pause  
@@ -37,7 +39,10 @@ Counter-clockwise circle - Volume Down
 
 ![ezgif-1-aca0cc16fcd5](https://user-images.githubusercontent.com/25557896/46909380-7c2b6080-ceff-11e8-8fab-c86d151e9dfd.gif)  
 ## Morse Code Mode :smile_cat::smile_cat::smile_cat:  
-Morse Code Interpreter - enter morse code with a swipe down motion and see your message with a gestsure
+Morse Code Interpreter - enter morse code with a swipe down motion and see your message with a gestsure  
+Command to start Morse Code Mode  
+![embeddedimg_handyoga_850px_7-600x600](https://user-images.githubusercontent.com/25557896/46910508-a25afb80-cf13-11e8-99ca-37298ffa6cb2.jpg)
+
 **Insert GIF here  
 ## FAQ :japanese_ogre: :pouting_cat: :heart_eyes_cat:
 - How can I learn more about Leap Motion?  
