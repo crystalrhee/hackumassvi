@@ -10,8 +10,14 @@ Software and hardware incorporated project for HackUmass VI. Leap Motion is used
   
   Leap Motion (V2) - https://www.leapmotion.com/setup/desktop/
 ## Usage
-## Commands
+# Commands
 Keytap - Play/Pause
+![cute-cat-lying-on-his-260nw-572338033](https://user-images.githubusercontent.com/25557896/46907716-c8b57280-cee4-11e8-87fe-3574adb08602.jpg)
+![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46907718-d10dad80-cee4-11e8-8ad9-7b74e119030b.png)
+![leap_gesture_swipe](https://user-images.githubusercontent.com/25557896/46907719-d2d77100-cee4-11e8-8fc9-e49030aeab86.png)
+![leap_gesture_tap](https://user-images.githubusercontent.com/25557896/46907721-d4089e00-cee4-11e8-85bd-5009e10b08de.png)
+![leap_gesture_tap2](https://user-images.githubusercontent.com/25557896/46907722-d4a13480-cee4-11e8-80f0-509d95ae4a86.png)
+
 Swipe left - Previous Track
 Swipe right - Next Track
 Clockwise-circle - Volume Up
