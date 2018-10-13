@@ -1,5 +1,5 @@
-# Motion Activated Music Player
-Created for HackUMass VI, this project uses Leap Motion to detect gestures that are linked to media commands to control music players.  
+# Motion Activated Music Player ![1539455067_tmp_181668 jpg_thumb](https://user-images.githubusercontent.com/25557896/46908646-c1499580-cef3-11e8-93c7-9a2243e19933.png)  
+Created for HackUMass VI, this project uses Leap Motion to detect gestures. These gestures are linked to media commands and can be used to control music players. 
 ## Table of Contents :smile::smile::smile:
 [Installation](#installation)  
 [Gestures](#gestures)  
@@ -28,7 +28,7 @@ Swipe right - Next Track
 
 
 Circles - A finger tracing a circle in space  
-:grin: :smiley_cat:
+:point_up_2:
 Clockwise-circle - Volume Up  
 Counter-clockwise circle - Volume Down  
 ![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46907718-d10dad80-cee4-11e8-8ad9-7b74e119030b.png)  
@@ -38,9 +38,9 @@ Counter-clockwise circle - Volume Down
 - How can I find out more about Leap Motion?  
 The official website for Leap Motion has a great start-up guide for new users, however there sample code for the Python SDK may have some errors. If one finds errors, they can reference our code above.  
 https://developer.leapmotion.com/#101  
-- Are there similar technologies with Leap Motion?  
+- Are there similar music-related Leap Motion technologies?  
 Composers may be interested in http://lyravr.com/ which allows users to compose music through interactive blocks.
-## Credits
+## Credits :grin: :smiley_cat:
 - **Crystal Rhee**  
   Northeastern University  
   Computer Science and Finance Major  
