@@ -1,11 +1,11 @@
 # Motion Activated Music Player ![1539455067_tmp_181668 jpg_thumb](https://user-images.githubusercontent.com/25557896/46908646-c1499580-cef3-11e8-93c7-9a2243e19933.png)  
 Created for HackUMass VI, this project uses Leap Motion to detect gestures. These gestures are linked to media commands and can be used to control music players. 
 ## Table of Contents :smile::smile::smile:
-[Installation](#installation)  
-[Gestures](#gestures)  
-[Example](#example)  
-[FAQ](#faq)  
-[Credits](#credits)  
+- [Installation](#installation)  
+- [Gestures](#gestures)  
+- [Example](#example)  
+- [FAQ](#faq)  
+- [Credits](#credits)  
 ## Installation :wink: :kissing_smiling_eyes:
 ### Please Install:  
   Python 2.7  - https://www.python.org/downloads/release/python-2715/  
