@@ -3,9 +3,9 @@ Software and hardware incorporated project for HackUmass VI. Leap Motion is used
 
 ## Table of Contents
 
-[create an anchor](#anchors-in-markdown)
 
-## Installation
+
+[create an anchor](## Installation)
   Python 2.7  - https://www.python.org/downloads/release/python-2715/
   
   
