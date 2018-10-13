@@ -38,7 +38,7 @@ Counter-clockwise circle - Volume Down
 - How can I find out more about Leap Motion?  
 The official website for Leap Motion has a great start-up guide for new users, however there sample code for the Python SDK may have some errors. If one finds errors, they can reference our code above.  
 https://developer.leapmotion.com/#101  
-- Are there similar technologies with Leap Motion?  
+- Are there similar music-related Leap Motion technologies?  
 Composers may be interested in http://lyravr.com/ which allows users to compose music through interactive blocks.
 ## Credits
 - **Crystal Rhee**  
