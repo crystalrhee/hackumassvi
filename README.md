@@ -1,5 +1,4 @@
-![1539454953_tmp_181668 jpg_thumb](https://user-images.githubusercontent.com/25557896/46908621-76c81900-cef3-11e8-86bf-0d060bec223f.png)    
-# Motion Activated Music Player
+# Motion Activated Music Player ![1539454953_tmp_181668 jpg_thumb](https://user-images.githubusercontent.com/25557896/46908621-76c81900-cef3-11e8-86bf-0d060bec223f.png)  
 Created for HackUMass VI, this project uses Leap Motion to detect gestures that are linked to media commands to control music players.  
 ## Table of Contents :smile::smile::smile:
 [Installation](#installation)  
