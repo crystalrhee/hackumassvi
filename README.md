@@ -1,4 +1,4 @@
-# hackumassvi
+# HackUMassVI
 Motion activated music controller
 
 Software and hardware incorporated project for HackUmass VI. Leap Motion is used to detect gestures that are linked to specific commands to control music players.
@@ -24,5 +24,5 @@ This project uses Python version 2.7.
   UMass Amherst  
   Computer Science Major  
 
-- **Timothy Shee**:
+- **Timothy Shee**
   High School  
