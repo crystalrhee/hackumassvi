@@ -9,7 +9,7 @@ from lib.Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGestur
 import keys
 
 
-class SampleListener(Leap.Listener):
+class MusicListener(Leap.Listener):
     finger_names = ['Thumb', 'Index', 'Middle', 'Ring', 'Pinky']
     playing = False
     last_update = 0.0
