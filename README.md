@@ -27,7 +27,7 @@ Swipe - a linear movement of a finger to the left or right
 :point_left:  :point_right:  
 Swipe left - Previous Track  
 Swipe right - Next Track  
-![leap_gesture_swipe](https://user-images.githubusercontent.com/25557896/46910610-8193a580-cf15-11e8-82c8-bc46e758a658.png)  
+![leap_gesture_swipe resized](https://user-images.githubusercontent.com/25557896/46910758-40e95b80-cf18-11e8-889c-39430127dc51.png)  
 
 Circles - A finger tracing a circle in space  
 :point_up_2:
