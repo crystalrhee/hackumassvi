@@ -1,18 +1,14 @@
-# hackumassvi
-Motion activated music controller
-
+# Motion Activated Music Controller
 Software and hardware incorporated project for HackUmass VI. Leap Motion is used to detect gestures that are linked to specific commands to control music players.
 
-## Getting started
-
-This project uses Python version 2.7.
-
 ## Table of Contents
+
+[create an anchor](#anchors-in-markdown)
 
 ## Installation
   Python 2.7  - https://www.python.org/downloads/release/python-2715/
   Leap Motion (V2) - https://www.leapmotion.com/setup/desktop/
-```[create an anchor](#anchors-in-markdown)```
+
 ## authors
 - **Crystal Rhee**  
   Northeastern University  
