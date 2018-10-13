@@ -2,9 +2,9 @@
 Software and hardware incorporated project for HackUmass VI. Leap Motion is used to detect gestures that are linked to specific commands to control music players.
 
 ## Table of Contents
+[Installation](#installation)
 
-
-## [Installation](#installation)
+## Installation
   Python 2.7  - https://www.python.org/downloads/release/python-2715/
   
   
