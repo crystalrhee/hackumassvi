@@ -7,9 +7,9 @@ Software and hardware incorporated project for HackUmass VI. Leap Motion is used
 
 This project uses Python version 2.7.
 
-## built with
-  Python 2.7
-  Leap Motion
+## Built with
+  Python 2.7  
+  Leap Motion  
 
 ## authors
 - **Crystal Rhee**  
