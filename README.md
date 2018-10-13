@@ -28,7 +28,7 @@ Swipe right - Next Track
 
 
 Circles - A finger tracing a circle in space  
-:ok_hand:
+:point_up_2:
 Clockwise-circle - Volume Up  
 Counter-clockwise circle - Volume Down  
 ![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46907718-d10dad80-cee4-11e8-8ad9-7b74e119030b.png)  
