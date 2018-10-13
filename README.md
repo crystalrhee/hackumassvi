@@ -28,7 +28,7 @@ Swipe right - Next Track
 
 
 Circles - A finger tracing a circle in space  
-:grin: :smiley_cat:
+:ok_hand:
 Clockwise-circle - Volume Up  
 Counter-clockwise circle - Volume Down  
 ![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46907718-d10dad80-cee4-11e8-8ad9-7b74e119030b.png)  
@@ -40,7 +40,7 @@ The official website for Leap Motion has a great start-up guide for new users, h
 https://developer.leapmotion.com/#101  
 - Are there similar music-related Leap Motion technologies?  
 Composers may be interested in http://lyravr.com/ which allows users to compose music through interactive blocks.
-## Credits
+## Credits :grin: :smiley_cat:
 - **Crystal Rhee**  
   Northeastern University  
   Computer Science and Finance Major  
