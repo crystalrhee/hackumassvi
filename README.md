@@ -1,6 +1,6 @@
 # Motion Activated Music Player
 Created for HackUMass VI, this project uses Leap Motion to detect gestures that are linked to media commands to control music players.  
-## Table of Contents
+## Table of Contents :smile::smile::smile:
 [Installation](#installation)  
 [Gestures](#gestures)  
 [Example](#example)  
@@ -13,11 +13,13 @@ Created for HackUMass VI, this project uses Leap Motion to detect gestures that 
   ![leap560](https://user-images.githubusercontent.com/25557896/46907770-abcd6f00-cee5-11e8-8a68-b1144c110064.jpg)
 # Gestures
 Keytap -  a quick, downward tapping movement  
+:point_up_2:  
 Keytap - Play/Pause  
 ![leap_gesture_tap](https://user-images.githubusercontent.com/25557896/46907721-d4089e00-cee4-11e8-85bd-5009e10b08de.png)
 
 
 Swipe - a linear movement of a finger to the left or right  
+:point_left:  :point_right:  
 Swipe left - Previous Track  
 Swipe right - Next Track  
 ![leap_gesture_swipe](https://user-images.githubusercontent.com/25557896/46907719-d2d77100-cee4-11e8-8fc9-e49030aeab86.png)
