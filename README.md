@@ -35,7 +35,7 @@ Counter-clockwise circle - Volume Down
 ## Example :smile_cat::smile_cat::smile_cat:
 ```screenshots of in use```
 ## FAQ :japanese_ogre: :pouting_cat: :heart_eyes_cat:
-- How can I find out more about Leap Motion?  
+- How can I learn more about Leap Motion?  
 The official website for Leap Motion has a great start-up guide for new users, however there sample code for the Python SDK may have some errors. If one finds errors, they can reference our code above.  
 https://developer.leapmotion.com/#101  
 - Are there similar music-related Leap Motion technologies?  
