@@ -11,6 +11,7 @@ import keys
 
 class MusicListener(Leap.Listener):
     finger_names = ['Thumb', 'Index', 'Middle', 'Ring', 'Pinky']
+    change_gesture = None
     playing = False
     last_update = 0.0
 
@@ -31,28 +32,44 @@ class MusicListener(Leap.Listener):
     def on_exit(self, controller):
         print "Exited"
 
+
+
     def on_frame(self, controller):
         # Get the most recent frame and report some basic information
         frame = controller.frame()
 
+        for hand in frame.hands:
+            for finger in hand.fingers:
+                int extendedFingers = 0
+                for (int f = 0; f < hand.fingers().count(); f++)
+                {
+                    Leap::Finger finger = hand.fingers()[f];
+                    if(finger.isExtended()) extendedFingers++;
+                }
+            print(finger)
+
         # Get gestures
         for gesture in frame.gestures():
+            diff = time.time() - self.last_update
             # if gesture.type
             # print hand.fingers
             if gesture.type == Leap.Gesture.TYPE_CIRCLE:
+                if not change_gesture:
+                    change_gesture = gesture
+
                 circle = CircleGesture(gesture)
-                diff = time.time() - self.last_update
 
                 # clockwise
                 if diff > 0.3:
                     if circle.pointable.direction.angle_to(circle.normal) <= Leap.PI/2:
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_SOUND_UP)
-                        print("volume up", time.time())
-                        self.last_update = time.time()
+                        print 'volume up', time.time()
                     else:
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_SOUND_DOWN)
-                        print("volume down", time.time())
-                        self.last_update = time.time()
+                        print 'volume down', time.time()
+                    self.last_update = time.time()
+
+
             if gesture.type == Leap.Gesture.TYPE_SWIPE:
                 swipe = SwipeGesture(gesture)
                 diff = time.time() - self.last_update
@@ -71,6 +88,23 @@ class MusicListener(Leap.Listener):
                     elif swipe.direction[1] < 0.8:
                         self.playing = not self.playing
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_PLAY)
-                        print(self.playing)
+                        print 'is playing: ', self.playing
                         self.last_update = time.time()
                         
+if __name__ == "__main__":
+    # Create a sample listener and controller
+    listener = MusicListener()
+    controller = Leap.Controller()
+
+    # Have the sample listener receive events from the controller
+    controller.add_listener(listener)
+
+    # Keep this process running until Enter is pressed
+    print "Press Enter to quit..."
+    try:
+        sys.stdin.readline()
+    except KeyboardInterrupt:
+        pass
+    finally:
+        # Remove the sample listener when done
+        controller.remove_listener(listener)
