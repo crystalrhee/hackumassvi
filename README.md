@@ -4,7 +4,7 @@
 Created for HackUMass VI, this project uses Leap Motion to detect gestures. These gestures are linked to media commands and can be used to control any music player.  
 ## Table of Contents  :smile::smile::smile:
 - [Installation](#installation)  
-- [Commands](#music-mode)  
+- [Commands](#commands)  
 - [Next Steps](#next-steps)  
 - [FAQ](#faq)  
 - [Credits](#credits)  
@@ -42,7 +42,7 @@ With more time, we would create greater user interactoin. We would use Unity to 
 ![20151106-155554b-1024x564](https://user-images.githubusercontent.com/25557896/46912083-0644ea80-cf3b-11e8-9c79-6972cdd30b76.jpg)  
 Additionally, we would create multiple modes where users could access additional features. One mode would be the Morse Code Interpreter where users could enter morse code dots with a swipe down motion and see their completed message when ending the Morse Code mode with the swith modes command.  
 Command to Switch Modes  
-![close-up-two-hands-putting-fingers-together-gesture-count-body-parts-concept-forefingers-69189718](https://user-images.githubusercontent.com/25557896/46912162-e7932380-cf3b-11e8-9e00-53aece8516f1.jpg)  
+![close-up-two-hands-putting-fingers-together-gesture-count-body-parts-concept-forefingers-69189651](https://user-images.githubusercontent.com/25557896/46912181-57091300-cf3c-11e8-90f7-31f93c17897b.jpg)  
 ## FAQ
 :japanese_ogre: :pouting_cat: :heart_eyes_cat:
 - How can I learn more about Leap Motion?  
