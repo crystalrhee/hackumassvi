@@ -13,7 +13,7 @@ class MusicListener(Leap.Listener):
     finger_names = ['Thumb', 'Index', 'Middle', 'Ring', 'Pinky']
     playing = False
     last_update = 0.0
-    r = requests.get(http://localhost:5000)
+    r = requests.get('http://localhost:5000')
     def on_init(self, controller):
         print "Initialized"
 
