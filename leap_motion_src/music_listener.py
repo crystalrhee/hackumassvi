@@ -47,7 +47,7 @@ class MusicListener(Leap.Listener):
         # Get gestures
         for gesture in frame.gestures():
             diff = time.time() - self.last_update
-            
+
             if gesture.type == Leap.Gesture.TYPE_CIRCLE and index_extended:
                 circle = CircleGesture(gesture)
 
@@ -82,7 +82,7 @@ class MusicListener(Leap.Listener):
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_PLAY)
                         print 'is playing: ', self.playing
                         self.last_update = time.time()
-                        
+
 if __name__ == "__main__":
     # Create a sample listener and controller
     listener = MusicListener()
