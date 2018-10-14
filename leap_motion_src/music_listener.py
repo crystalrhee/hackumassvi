@@ -13,7 +13,7 @@ class MusicListener(Leap.Listener):
     finger_names = ['Thumb', 'Index', 'Middle', 'Ring', 'Pinky']
     playing = False
     last_update = 0.0
-    r = requests.get('http://localhost:5000')
+    # r = requests.get('http://localhost:5000')
     def on_init(self, controller):
         print "Initialized"
 
@@ -42,7 +42,6 @@ class MusicListener(Leap.Listener):
             index_extended = True
             for i, finger in enumerate(hand.fingers):
                 index_extended = index_extended and ((i == 1) == finger.is_extended)
-        print(index_extended)
 
         # Get gestures
         for gesture in frame.gestures():

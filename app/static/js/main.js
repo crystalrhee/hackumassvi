@@ -1,5 +1,18 @@
 $( document ).ready(function() {
 
+    namespace = '';
+
+    var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port + namespace);
+
+    socket.on('connect', function() {
+        console.log('connected')
+        socket.emit('my_event', {data: 'I\'m connected!'});
+    });
+
+    socket.on('output', function(msg) {
+        console.log('received: ' + msg)
+    });
+
 	$( ".fa-play" ).hover(function() {
 		$(".fa").removeClass("active");
 		$(this).addClass("active");
