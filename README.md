@@ -5,6 +5,7 @@ Created for HackUMass VI, this project uses Leap Motion to detect gestures. Thes
 ## Table of Contents  :smile::smile::smile:
 - [Installation](#installation)  
 - [Commands](#commands)  
+- [Features](#features)
 - [Next Steps](#next-steps)  
 - [FAQ](#faq)  
 - [Credits](#credits)  
@@ -36,6 +37,8 @@ Counter-clockwise circle - Volume Down
 ![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46910609-7fc9e200-cf15-11e8-9b25-c09985cea990.png)  
 
 ![ezgif-1-aca0cc16fcd5](https://user-images.githubusercontent.com/25557896/46909380-7c2b6080-ceff-11e8-8fab-c86d151e9dfd.gif)  
+## Features  
+- Our project includes a web app to display the commands a user has entered with their gestures through animations. 
 ## Next Steps  
 :smile_cat::smile_cat::smile_cat:  
 With more time, we would create greater user interactoin. We would use Unity to create a 3D menu of options to configure personal settings. Along with the menu, we would create interactive blocks for more complicated commands such as choosing the next song from a favorites playlist.
