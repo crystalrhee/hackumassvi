@@ -1,3 +1,5 @@
 .DS_Store
 venv/
 leap_motion_src/lib/LeapPython.so
+*.pyc
+
