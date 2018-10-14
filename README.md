@@ -1,11 +1,11 @@
 # Motion Activated Music Player  
 <img src="https://user-images.githubusercontent.com/25557896/46908646-c1499580-cef3-11e8-93c7-9a2243e19933.png"/>
   
-Created for HackUMass VI, this project uses Leap Motion to detect gestures. Moving the ring or pinkie finger to the thumb starts a mode. These modes include a music player mode and a morse code mode. In the music mode, the gestures are linked to media commands and can be used to control any music player. In the morse code mode, the swipe down gesture is a dot and the system outputs the message upon changing the mode.  
+Created for HackUMass VI, this project uses Leap Motion to detect gestures. These gestures are linked to media commands and can be used to control any music player.  
 ## Table of Contents  :smile::smile::smile:
 - [Installation](#installation)  
-- [Music Mode](#music-mode)  
-- [Morse Code Mode](#morse-code-mode)  
+- [Commands](#music-mode)  
+- [Next Steps](#next-steps)  
 - [FAQ](#faq)  
 - [Credits](#credits)  
 ## Installation
@@ -16,10 +16,8 @@ Created for HackUMass VI, this project uses Leap Motion to detect gestures. Movi
 ### And Buy  
   Leap Motion Controller  
   ![leap560](https://user-images.githubusercontent.com/25557896/46907770-abcd6f00-cee5-11e8-8a68-b1144c110064.jpg)
-## Music Mode  
-:open_mouth:  
-Command to Start Music Mode  
-![seven-in-american-sign-language](https://user-images.githubusercontent.com/25557896/46910589-03370380-cf15-11e8-9ee1-fbcf2309ed52.jpg)   
+## Commands
+:open_mouth:    
 Keytap -  a quick, downward tapping movement  
 :point_up_2:
 Keytap - Play/Pause  
@@ -38,12 +36,13 @@ Counter-clockwise circle - Volume Down
 ![leap_gesture_circle](https://user-images.githubusercontent.com/25557896/46910609-7fc9e200-cf15-11e8-9b25-c09985cea990.png)  
 
 ![ezgif-1-aca0cc16fcd5](https://user-images.githubusercontent.com/25557896/46909380-7c2b6080-ceff-11e8-8fab-c86d151e9dfd.gif)  
-## Morse Code Mode  
+## Next Steps  
 :smile_cat::smile_cat::smile_cat:  
-Morse Code Interpreter - enter morse code with a swipe down motion and see your message with a gestsure  
-Command to start Morse Code Mode  
-![embeddedimg_handyoga_850px_7-600x600](https://user-images.githubusercontent.com/25557896/46910583-ff0ae600-cf14-11e8-9688-85758a9e57d3.jpg)  
-**Insert GIF here of use  
+With more time, we would create greater user interactoin. We would use Unity to create a 3D menu of options to configure personal settings. Along with the menu, we would create interactive blocks for more complicated commands such as choosing the next song from a favorites playlist.
+![20151106-155554b-1024x564](https://user-images.githubusercontent.com/25557896/46912083-0644ea80-cf3b-11e8-9c79-6972cdd30b76.jpg)  
+Additionally, we would create multiple modes where users could access additional features. One mode would be the Morse Code Interpreter where users could enter morse code dots with a swipe down motion and see their completed message when ending the Morse Code mode with the swith modes command.  
+Command to Switch Modes  
+![close-up-two-hands-putting-fingers-together-gesture-count-body-parts-concept-forefingers-69189718](https://user-images.githubusercontent.com/25557896/46912162-e7932380-cf3b-11e8-9e00-53aece8516f1.jpg)  
 ## FAQ
 :japanese_ogre: :pouting_cat: :heart_eyes_cat:
 - How can I learn more about Leap Motion?  
