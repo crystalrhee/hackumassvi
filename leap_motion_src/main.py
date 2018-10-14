@@ -26,7 +26,6 @@ def main():
         # Remove the sample listener when done
         controller.remove_listener(listener)
 
-
 if __name__ == "__main__":
     main()
 

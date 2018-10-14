@@ -11,7 +11,6 @@ import keys
 
 class MusicListener(Leap.Listener):
     finger_names = ['Thumb', 'Index', 'Middle', 'Ring', 'Pinky']
-    change_gesture = None
     playing = False
     last_update = 0.0
 
@@ -37,26 +36,20 @@ class MusicListener(Leap.Listener):
     def on_frame(self, controller):
         # Get the most recent frame and report some basic information
         frame = controller.frame()
+        index_extended = False
 
         for hand in frame.hands:
-            for finger in hand.fingers:
-                int extendedFingers = 0
-                for (int f = 0; f < hand.fingers().count(); f++)
-                {
-                    Leap::Finger finger = hand.fingers()[f];
-                    if(finger.isExtended()) extendedFingers++;
-                }
-            print(finger)
+            index_extended = True
+            for i, finger in enumerate(hand.fingers):
+                index_extended = index_extended and ((i == 1) == finger.is_extended)
+        print(index_extended)
 
         # Get gestures
         for gesture in frame.gestures():
             diff = time.time() - self.last_update
             # if gesture.type
             # print hand.fingers
-            if gesture.type == Leap.Gesture.TYPE_CIRCLE:
-                if not change_gesture:
-                    change_gesture = gesture
-
+            if gesture.type == Leap.Gesture.TYPE_CIRCLE and index_extended:
                 circle = CircleGesture(gesture)
 
                 # clockwise
