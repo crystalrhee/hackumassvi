@@ -27,12 +27,12 @@ def test_disconnect():
     print('Client disconnected', client_id)
     clients.remove(client_id)
 
-@app.route('/send', methods=['POST'])
+@app.route('/', methods=['POST'])
 def send_message():
     global clients
     print(request.json)
     for client_id in clients:
-        socketio.emit('output', request.json['data'], room=client_id)
+        socketio.emit('output', request.json['command'], room=client_id)
     msg = 'forwarding that to ' + str(clients)
     print(msg)
     return msg

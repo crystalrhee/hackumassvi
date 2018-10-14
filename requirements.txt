@@ -1,3 +1,12 @@
+certifi==2018.8.24
+chardet==3.0.4
+Click==7.0
+Flask==1.0.2
+Flask-SocketIO==3.0.2
+idna==2.7
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
 numpy==1.15.2
 Pillow==5.3.0
 PyAutoGUI==0.9.38
@@ -95,4 +104,10 @@ pyobjc-framework-VideoToolbox==5.0
 pyobjc-framework-Vision==5.0
 pyobjc-framework-WebKit==5.0
 PyScreeze==0.1.18
+python-engineio==2.3.2
+python-socketio==2.0.0
 PyTweening==1.0.3
+requests==2.19.1
+six==1.11.0
+urllib3==1.23
+Werkzeug==0.14.1

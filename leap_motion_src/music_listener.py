@@ -55,11 +55,11 @@ class MusicListener(Leap.Listener):
                     if circle.pointable.direction.angle_to(circle.normal) <= Leap.PI/2:
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_SOUND_UP)
                         print 'volume up', time.time()
-                        r = requests.post('http://localhost:5000', data = {'command':'volume_up'})
+                        r = requests.post('http://localhost:5000', json = {'command':'volume_up'})
                     else:
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_SOUND_DOWN)
                         print 'volume down', time.time()
-                        r = requests.post('http://localhost:5000', data = {'command':'volume_down'})
+                        r = requests.post('http://localhost:5000', json = {'command':'volume_down'})
                     self.last_update = time.time()
 
 
@@ -72,20 +72,20 @@ class MusicListener(Leap.Listener):
                         print 'prev track'
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_PREVIOUS)
                         self.last_update = time.time()
-                        r = requests.post('http://localhost:5000', data = {'command':'swipe_right'})
+                        r = requests.post('http://localhost:5000', json = {'command':'swipe_left'})
                     # swipe right
                     elif swipe.direction[0] > 0.8:
                         print 'next track'
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_NEXT)
                         self.last_update = time.time()
-                        r = requests.post('http://localhost:5000', data = {'command':'swipe_left'})
+                        r = requests.post('http://localhost:5000', json = {'command':'swipe_right'})
                     # swipe down
                     elif swipe.direction[1] < 0.8:
                         self.playing = not self.playing
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_PLAY)
                         print 'is playing: ', self.playing
                         self.last_update = time.time()
-                        r = requests.post('http://localhost:5000', data = {'command':'play_pause'})
+                        r = requests.post('http://localhost:5000', json = {'command':'play_pause'})
                         
 if __name__ == "__main__":
     # Create a sample listener and controller
