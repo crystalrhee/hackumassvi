@@ -6,6 +6,7 @@ Created for HackUMass VI, this project is a motion activated music player that u
 - [Installation](#installation)  
 - [Commands](#commands)  
 - [Features](#features)
+- [Software Stack](#software-stack)
 - [Next Steps](#next-steps)  
 - [FAQ](#faq)  
 - [Credits](#credits)  
