@@ -7,13 +7,13 @@ sys.path.insert(0, os.path.abspath(os.path.join(src_dir, arch_dir)))
 import lib.Leap as Leap
 from lib.Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGesture
 import keys
-
+import requests
 
 class MusicListener(Leap.Listener):
     finger_names = ['Thumb', 'Index', 'Middle', 'Ring', 'Pinky']
     playing = False
     last_update = 0.0
-
+    r = requests.get(http://localhost:5000)
     def on_init(self, controller):
         print "Initialized"
 
@@ -56,9 +56,11 @@ class MusicListener(Leap.Listener):
                     if circle.pointable.direction.angle_to(circle.normal) <= Leap.PI/2:
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_SOUND_UP)
                         print 'volume up', time.time()
+                        r = requests.post('http://localhost:5000', data = {'command':'volume_up'})
                     else:
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_SOUND_DOWN)
                         print 'volume down', time.time()
+                        r = requests.post('http://localhost:5000', data = {'command':'volume_down'})
                     self.last_update = time.time()
 
 
@@ -71,18 +73,21 @@ class MusicListener(Leap.Listener):
                         print 'prev track'
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_PREVIOUS)
                         self.last_update = time.time()
+                        r = requests.post('http://localhost:5000', data = {'command':'swipe_right'})
                     # swipe right
                     elif swipe.direction[0] > 0.8:
                         print 'next track'
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_NEXT)
                         self.last_update = time.time()
+                        r = requests.post('http://localhost:5000', data = {'command':'swipe_left'})
                     # swipe down
                     elif swipe.direction[1] < 0.8:
                         self.playing = not self.playing
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_PLAY)
                         print 'is playing: ', self.playing
                         self.last_update = time.time()
-
+                        r = requests.post('http://localhost:5000', data = {'command':'play_pause'})
+                        
 if __name__ == "__main__":
     # Create a sample listener and controller
     listener = MusicListener()
