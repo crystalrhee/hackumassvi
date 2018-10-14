@@ -14,6 +14,7 @@ Created for HackUMass VI, this project is a motion activated music player that u
 ### Please Install:  
   Python 2.7  - https://www.python.org/downloads/release/python-2715/  
   Leap Motion (V2 Tracking) - https://www.leapmotion.com/setup/desktop/  
+  Flask - https://pypi.org/project/Flask/
 ### And Buy  
   Leap Motion Controller  
   ![leap560](https://user-images.githubusercontent.com/25557896/46907770-abcd6f00-cee5-11e8-8a68-b1144c110064.jpg)
@@ -38,7 +39,10 @@ Counter-clockwise circle - Volume Down
 
 ![ezgif-1-aca0cc16fcd5](https://user-images.githubusercontent.com/25557896/46909380-7c2b6080-ceff-11e8-8fab-c86d151e9dfd.gif)  
 ## Features  
-- Our project includes a web app to display the commands a user has entered with their gestures through animations. 
+- Our Flask server supports multiple clients concurrently viewing one user's music play experience.  
+## Software Stack
+Main.py uses Leap Motion hardware to record gestures and corresponding commands and posts them to the Flask server which renders it for the user.  
+![hackumassstack](https://user-images.githubusercontent.com/25557896/46913071-2634d800-cf54-11e8-905e-301e9214e537.jpg)  
 ## Next Steps  
 :smile_cat::smile_cat::smile_cat:  
 With more time, we would create greater user interactoin. We would use Unity to create a 3D menu of options to configure personal settings. Along with the menu, we would create interactive blocks for more complicated commands such as choosing the next song from a favorites playlist.
