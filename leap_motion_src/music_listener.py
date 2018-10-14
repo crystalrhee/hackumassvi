@@ -47,8 +47,7 @@ class MusicListener(Leap.Listener):
         # Get gestures
         for gesture in frame.gestures():
             diff = time.time() - self.last_update
-            # if gesture.type
-            # print hand.fingers
+            
             if gesture.type == Leap.Gesture.TYPE_CIRCLE and index_extended:
                 circle = CircleGesture(gesture)
 
