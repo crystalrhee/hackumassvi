@@ -3,13 +3,13 @@ $( document ).ready(function() {
 	$( ".fa-play" ).hover(function() {
 		$(".fa").removeClass("active");
 		$(this).addClass("active");
-		$(".loading").addClass("play");
+		$(".loading h1").removeClass("pause");
 	});
 
 	$( ".fa-pause" ).hover(function() {
 		$(".fa").removeClass("active");
 		$(this).addClass("active");
-		$(".loading").removeClass("play");
+		$(".loading h1").addClass("pause");
 	});
 
 	$( ".fa-step-backward" ).hover(function() {
@@ -31,7 +31,4 @@ $( document ).ready(function() {
 		$(".fa").removeClass("active");
 		$(this).addClass("active");
 	});
-
-
-
 });
