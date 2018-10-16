@@ -8,12 +8,26 @@ import lib.Leap as Leap
 from lib.Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGesture
 import keys
 import requests
+'''
+    This contains all the logic for the music state.
+
+    It's able to recognize multiple gestures including:
+        * [left, right, down] swipes for play/pause, prev track, and next track
+        * (index finger out) circular motions (clock/counter clock wise) for vol up/down
+    
+    Two things happen when a command is triggered:
+        1. simulate the key press for the specific command (works only for Mac)
+        2. send a POST request of the command to the server (used for the front-end)
+'''
+
+SERVER_IP = 'http://localhost:5000'
+
 
 class MusicListener(Leap.Listener):
     finger_names = ['Thumb', 'Index', 'Middle', 'Ring', 'Pinky']
     playing = False
     last_update = 0.0
-    # r = requests.get('http://localhost:5000')
+
     def on_init(self, controller):
         print "Initialized"
 
@@ -21,8 +35,8 @@ class MusicListener(Leap.Listener):
         print "Connected"
 
         # Enable gestures
-        controller.enable_gesture(Leap.Gesture.TYPE_CIRCLE);
-        controller.enable_gesture(Leap.Gesture.TYPE_SWIPE);
+        controller.enable_gesture(Leap.Gesture.TYPE_CIRCLE)
+        controller.enable_gesture(Leap.Gesture.TYPE_SWIPE)
 
     def on_disconnect(self, controller):
         # Note: not dispatched when running in a debugger.
@@ -30,8 +44,6 @@ class MusicListener(Leap.Listener):
 
     def on_exit(self, controller):
         print "Exited"
-
-
 
     def on_frame(self, controller):
         # Get the most recent frame and report some basic information
@@ -41,7 +53,8 @@ class MusicListener(Leap.Listener):
         for hand in frame.hands:
             index_extended = True
             for i, finger in enumerate(hand.fingers):
-                index_extended = index_extended and ((i == 1) == finger.is_extended)
+                index_extended = index_extended and (
+                    (i == 1) == finger.is_extended)
 
         # Get gestures
         for gesture in frame.gestures():
@@ -50,18 +63,21 @@ class MusicListener(Leap.Listener):
             if gesture.type == Leap.Gesture.TYPE_CIRCLE and index_extended:
                 circle = CircleGesture(gesture)
 
-                # clockwise
+                # don't update too often, make sure last command was x seconds ago
                 if diff > 0.3:
-                    if circle.pointable.direction.angle_to(circle.normal) <= Leap.PI/2:
+                    # clockwise
+                    if circle.pointable.direction.angle_to(
+                            circle.normal) <= Leap.PI / 2:
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_SOUND_UP)
                         print 'volume up', time.time()
-                        r = requests.post('http://localhost:5000', json = {'command':'volume_up'})
+                        r = requests.post(
+                            SERVER_IP, json={'command': 'volume_up'})
                     else:
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_SOUND_DOWN)
                         print 'volume down', time.time()
-                        r = requests.post('http://localhost:5000', json = {'command':'volume_down'})
+                        r = requests.post(
+                            SERVER_IP, json={'command': 'volume_down'})
                     self.last_update = time.time()
-
 
             if gesture.type == Leap.Gesture.TYPE_SWIPE:
                 swipe = SwipeGesture(gesture)
@@ -72,21 +88,26 @@ class MusicListener(Leap.Listener):
                         print 'prev track'
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_PREVIOUS)
                         self.last_update = time.time()
-                        r = requests.post('http://localhost:5000', json = {'command':'swipe_left'})
+                        r = requests.post(
+                            SERVER_IP, json={'command': 'swipe_left'})
                     # swipe right
                     elif swipe.direction[0] > 0.8:
                         print 'next track'
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_NEXT)
                         self.last_update = time.time()
-                        r = requests.post('http://localhost:5000', json = {'command':'swipe_right'})
+                        r = requests.post(
+                            SERVER_IP, json={'command': 'swipe_right'})
                     # swipe down
                     elif swipe.direction[1] < 0.8:
                         self.playing = not self.playing
                         keys.HIDPostAuxKey(keys.NX_KEYTYPE_PLAY)
                         print 'is playing: ', self.playing
                         self.last_update = time.time()
-                        r = requests.post('http://localhost:5000', json = {'command':'play_pause'})
-                        
+                        r = requests.post(
+                            SERVER_IP, json={'command': 'play_pause'})
+
+
+# For debugging purposes
 if __name__ == "__main__":
     # Create a sample listener and controller
     listener = MusicListener()

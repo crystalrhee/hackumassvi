@@ -9,9 +9,11 @@ app.debug = True
 socketio = SocketIO(app)
 clients = []
 
+
 @app.route('/')
 def index():
     return render_template('index.html')
+
 
 @socketio.on('connect')
 def test_connect():
@@ -20,6 +22,7 @@ def test_connect():
     clients.append(client_id)
     print('Client connected', client_id)
 
+
 @socketio.on('disconnect')
 def test_disconnect():
     global clients
@@ -27,6 +30,8 @@ def test_disconnect():
     print('Client disconnected', client_id)
     clients.remove(client_id)
 
+
+# Forwards the command to all clients (frontend)) through a socket connection
 @app.route('/', methods=['POST'])
 def send_message():
     global clients
@@ -36,6 +41,7 @@ def send_message():
     msg = 'forwarding that to ' + str(clients)
     print(msg)
     return msg
+
 
 if __name__ == '__main__':
     socketio.run(app)
